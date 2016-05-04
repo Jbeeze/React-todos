@@ -1,0 +1,25 @@
+{
+  "name": "react-todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "./node_modules/.bin/webpack",
+    "dev-server": "node_modules/.bin/http-server -p 3000 public/"
+  },
+  "author": "Jared Billig",
+  "dependencies": {
+    "axios": "^0.11.0",
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
+    "jquery": "^2.2.3",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.13.0"
+  }
+}
